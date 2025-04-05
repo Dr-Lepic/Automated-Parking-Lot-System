@@ -26,5 +26,17 @@ public class ParkingLot {
         return slotNumber;
     }
 
+    public boolean leaveSlot(int slotNumber) {
+        if (slotNumber < 1 || slotNumber > capacity || !slots.get(slotNumber).isOccupied()) {
+            return false;
+        }
+
+        ParkingSlot slot = slots.get(slotNumber);
+        slot.leave();
+        availableSlots.add(slotNumber);
+        return true;
+    }
+
+
 
 }
