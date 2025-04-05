@@ -15,5 +15,16 @@ public class ParkingLot {
         }
     }
 
+    public int parkCar(String registrationNumber, String color) {
+        if (availableSlots.isEmpty()) {
+            return -1;
+        }
+
+        int slotNumber = availableSlots.poll();
+        ParkingSlot slot = slots.get(slotNumber);
+        slot.parkCar(new Car(registrationNumber, color));
+        return slotNumber;
+    }
+
 
 }
