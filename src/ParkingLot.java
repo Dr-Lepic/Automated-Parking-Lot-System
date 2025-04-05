@@ -37,6 +37,16 @@ public class ParkingLot {
         return true;
     }
 
+    public List<ParkingSlot> getOccupiedSlots() {
+        List<ParkingSlot> occupied = new ArrayList<>();
+        for (int i = 1; i <= capacity; i++) {
+            ParkingSlot slot = slots.get(i);
+            if (slot.isOccupied()) {
+                occupied.add(slot);
+            }
+        }
+        return occupied;
+    }
 
 
 }
