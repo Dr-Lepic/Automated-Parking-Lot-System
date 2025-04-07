@@ -48,5 +48,50 @@ public class ParkingLot {
         return occupied;
     }
 
+    public List<String> getRegistrationNumbersByColor(String color) {
+        List<String> result = new ArrayList<>();
+        for (int i = 1; i <= capacity; i++) {
+            ParkingSlot slot = slots.get(i);
+            if (slot.isOccupied()) {
+                Car car = slot.getParkedCar();
+                if (car.getColor().equalsIgnoreCase(color)) {
+                    result.add(car.getRegistrationNumber());
+                }
+            }
+        }
+        return result;
+    }
+
+    public List<Integer> getSlotNumbersByColor(String color) {
+        List<Integer> result = new ArrayList<>();
+        for (int i = 1; i <= capacity; i++) {
+            ParkingSlot slot = slots.get(i);
+            if (slot.isOccupied()) {
+                Car car = slot.getParkedCar();
+                if (car.getColor().equalsIgnoreCase(color)) {
+                    result.add(slot.getSlotNumber());
+                }
+            }
+        }
+        return result;
+    }
+
+    public Integer getSlotNumberByRegistration(String registrationNumber) {
+        for (int i = 1; i <= capacity; i++) {
+            ParkingSlot slot = slots.get(i);
+            if (slot.isOccupied()) {
+                Car car = slot.getParkedCar();
+                if (car.getRegistrationNumber().equals(registrationNumber)) {
+                    return slot.getSlotNumber();
+                }
+            }
+        }
+        return null;
+    }
+
+    public int getAvailableSlotsCount() {
+        return availableSlots.size();
+    }
+
 
 }
