@@ -1,0 +1,521 @@
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 1
+Enter the number of slots: 6
+Created a parking lot with 6 slots
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 2
+Enter registration number: ka
+Enter color: white
+Allocated slot number: 1
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 2
+Enter registration number: 0001
+Enter color: black
+Allocated slot number: 2
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 2
+Enter registration number: 9999
+Enter color: white
+Allocated slot number: 3
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 2
+Enter registration number: 777
+Enter color: red
+Allocated slot number: 4
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 2
+Enter registration number: 2701
+Enter color: blue
+Allocated slot number: 5
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 3141
+Invalid choice. Please try again.
+Press Enter to continue...
+black
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 2
+Enter registration number: 3141
+Enter color: black
+Allocated slot number: 6
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 3
+Enter slot number to leave: 4
+Slot number 4 is free
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 4
+Slot No. Registration No. Colour
+1			 ka			 white
+2			 0001			 black
+3			 9999			 white
+5			 2701			 blue
+6			 3141			 black
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 2
+Enter registration number: 333
+Enter color: white
+Allocated slot number: 4
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 2
+Enter registration number: 9999
+Enter color: white
+Sorry, parking lot is full
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 5
+Enter color: white
+ka, 9999, 333
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 7
+Enter color: white
+1, 3, 4
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 6
+Enter registration number: 3141
+6
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 6
+Enter registration number: 11111
+Not found
+Press Enter to continue...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----- Automated Parking Lot System -----
+1. Create Parking Lot
+2. Park a Car
+3. Leave a Slot
+4. Status of Parking Lot
+5. Find Registration Numbers by Color
+6. Find Slot Number by Registration Number
+7. Find Slot Numbers by Color
+8. Exit
+----------------------------------------
+Enter your choice: 8
+Exiting the system. Goodbye!
+
+Process finished with exit code 0
